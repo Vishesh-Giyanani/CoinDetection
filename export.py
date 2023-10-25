@@ -5,14 +5,25 @@
 import cv2
 import numpy as np
 import streamlit as st
-from PIL import Image
+import tkinter as tk
+from PIL import ImageTk, Image
 
 # %%
 one = cv2.imread("data/coin.png")
 two = cv2.imread("data/code.png")
 three = cv2.imread("data/main.png")
 
-img = three
+inp = input("Enter the image name: ")
+
+if inp == "one":
+    img = one
+elif inp == "two":
+    img = two
+elif inp == "three":
+    img = three
+
+global output 
+
 output = img.copy()
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 gray = cv2.GaussianBlur(gray, (7,7), 1.5)

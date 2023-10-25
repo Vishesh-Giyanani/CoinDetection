@@ -1,19 +1,16 @@
 # CoinDetection
-Capstone Project of one of my Python Online Courses.
+Image Processing Assignment - 70321019027
 
 I try to detect the amount of lose change in pictures using computervision. After the dectection I will add up all the coin values and will return the total sum of all coins.
 
 # Process / Steps
 
 [] Document goal of the challenge
-[x] Create and set up a virtuel environment
-[x] Configure IDE (my choice: VScode)
 [x] get knowledge about the different coins
 [x] come to grips with the use of opencv
 
 # Ressources
 >> VSCode
->> Conda Interpreter
 >> Modules
 >>> OpenCV
 >>> Numpy
